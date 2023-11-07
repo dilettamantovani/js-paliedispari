@@ -4,9 +4,7 @@ function isPalindrome(word) {
     let palindrome = '';
 
     for (let i = word.length - 1; i >= 0; i--) {
-        
-        separa = word[i];
-        palindrome += separa;
+        console.log(word[i]);
     }
 
     return palindrome;
