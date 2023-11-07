@@ -7,7 +7,7 @@ function randNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function oddPair(winningNumber) {
+function oddEven(winningNumber) {
     let result = '';
 
     if(winningNumber % 2 === 0) 
@@ -21,7 +21,7 @@ function oddPair(winningNumber) {
 
 }
 
-if(userBet == oddPair(winningNumber)) {
+if(userBet == oddEven(winningNumber)) {
     console.log(`Hai vinto! Il tuo numero ${userNumber} Il numero dell'avversario ${pcNumber}`)
     alert(`Hai vinto! Il tuo numero ${userNumber} Il numero dell'avversario ${pcNumber}`)
     
